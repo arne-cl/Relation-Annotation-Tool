@@ -115,7 +115,7 @@ if __name__ == '__main__':
         except:
             return
                 
-    # convert taglist into strings£¬for saving
+    # convert taglist into strings for saving
     def taglistEncode():
         strTags = ''
         tags = []
@@ -203,7 +203,7 @@ if __name__ == '__main__':
         y = (win.winfo_screenheight() / 2) - (height / 2)
         win.geometry('{0}x{1}+{2}+{3}'.format(width, height, x, y))
         
-    # right click an entity record in textEntities text area£¬to put the entities into entity text field
+    # right click an entity record in textEntities text area to put the entities into entity text field
     def fillEntityFromEntities(index):
         strindex = str(index)
         prefix = strindex[0:strindex.find('.') + 1]
